@@ -18,11 +18,8 @@ Luego un margin, un padding y centrado con un ancho del 80%
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 20px;
-  grid-template-columns: 20% 20% 20%; 
-  justify-content: start;  
-  grid-template-rows: repeat(3, 20%); 
-  height: 600px;
-  align-content: space-evenly;
+  grid-template-columns: 20% auto 20%;
+  grid-template-rows: repeat(3, 100px);
   margin: 20px auto;
   padding: 1em;
   width: 80%;
